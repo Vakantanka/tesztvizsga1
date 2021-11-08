@@ -1,0 +1,47 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+section {
+	position: relative;
+
+	width: calc(100vw - 17px);
+	height: calc(100vh - 17px);
+	
+}
+
+.section1 {
+	background-color: #008B74;
+}
+
+.section2 {
+	background-color: #00C2A8;
+}
+
+.section3 {
+	background-color: #4FFBDF;
+}
+
+section button {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+
+	width: 200px;
+	height: 60px;
+
+	font-weight: bold;
+	color: #f0ff00;
+}
+
+.section1 button {
+	background-color: #084100;
+}
+
+.section2 button {
+	background-color: #005B44;
+}
+
+.section3 button {
+	background-color: #008B74;
+}
